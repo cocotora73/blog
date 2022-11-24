@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.1.2/css/all.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>ブログサイト</title>
+    <script src="js/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="home-flex">
+           <h1 class="header-title">CatBlog</h1>
+            <div>
+                <a href="#">
+                    <i class="fa-brands fa-twitter fa-2x sns-icon"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-instagram fa-2x sns-icon"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-solid fa-magnifying-glass fa-2x search-icon"></i> 
+                </a>   
+            </div>
+        </div> 
+        <nav id="g-navi">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#">profile</a></li>
+                <li><a href="#">works</a></li>
+                <li><a href="#">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="openbtn">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>    
+    
+    <main id="main">
+        <div class="main-bg-img">
+            <div class="swiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="img/cat-img.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/cat-img2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/cat-img3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="img/cat-img4.jpg" alt=""></div>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+            <div class="catchCopy">
+                かわいい猫たちの日常。
+            </div>
+        </div>
+        <nav class="main-nav">
+            <ul class="nav-flex">
+                <li><a href="">home</a></li>
+                <li><a href="">profile</a></li>
+                <li><a href="">works</a></li>
+                <li><a href="">contact</a></li>
+            </ul>
+        </nav>
+        <div class="blog-contents">
+            <article>
+                <div id ="app">
+                    <div class="swiper-container tab-menu">
+                        <ul class="swiper-wrapper tabBtn">
+                            <li class="swiper-slide"><a>最新記事</a></li>
+                            <li class="swiper-slide"><a>人気の記事</a></li>
+                            <li class="swiper-slide"><a>column</a></li>
+                            <li class="swiper-slide"><a>猫グッズ</a></li>
+                        </ul>
+                    </div>
+                
+                    <div class="swiper-container tab-content">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide post-list-item">
+                                <a href="" class="article-card">
+                                    <img src="img/news-img.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide post-list-item">
+                                <a href="" class="article-card">
+                                    <img src="img/news-img2.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img2.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img2.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img2.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img2.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img2.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide post-list-item">
+                                <a href="" class="article-card">
+                                    <img src="img/news-img3.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img3.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img3.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img3.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img3.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img3.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                            </div>
+
+                            <div class="swiper-slide post-list-item">
+                                <a href="" class="article-card">
+                                    <img src="img/news-img4.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img4.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img4.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img4.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img4.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                                <a href="" class="article-card">
+                                    <img src="img/news-img4.jpg" alt="" class="post-img">
+                                    <span class="post-list-category">column</span>
+                                    <h2 class="post-list-title">テキストテキストテキスト</h2>
+                                    <span class="post-list-date">2022年11月1日</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <nav class="pagination">
+                    <li class="current">
+                        <a href="">1</a>
+                    </li>
+                    <li class="current-cur">
+                        <a href="">2</a>
+                    </li>
+                    <li class="current-cur">
+                        <a href="">3</a>
+                    </li>
+                </nav>
+                
+            </article>
+            <aside>
+                <div class="profile">
+                    <img src="img/pro-img.jpeg" alt="">
+                    <div class="myname">Miku Teshima</div>
+                    <div class="myjob">ブロガー / ライター</div>
+                    <div class="myintro">
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                        テキストテキストテキストテキストテキストテキスト
+                    </div>
+                    <div class="profile-sns">
+                        <div class="sns-title">
+                            Follow me!
+                        </div>
+                        <div class="icons">
+                            <a href="#">
+                                <i class="fa-brands fa-twitter fa-2x sns-icon"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa-brands fa-instagram fa-2x sns-icon"></i>
+                            </a>  
+                        </div>
+                    </div>
+                </div>
+                <div class="categories">
+                    <h2 class="aside-title">Ctegory</h2>
+                    <ul class="category-li">
+                        <li><a>News<a></li>
+                        <li><a>movie<a></li>
+                        <li><a>猫グッズ<a></li>
+                    </ul>
+                </div>
+                <div class="recentArticles">
+                    <h2 class="aside-title">新着記事</h2>
+                    <ul class="category-li">
+                        <li><a><a></li>
+                        <li><a>新しい子猫がやってきた！<a></li>
+                        <li><a>トラのお気に入りのおもちゃ<a></li>
+                        <li><a>第27回 保護猫の譲渡会のお礼とご報告<a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </main>
+    <footer id="footer">
+        <p><small>&copy</small>2022 Cat Blog</p>
+    </footer>
+    
+    <script src="js/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            loop: true,
+            loopedSlides: 4,
+            slidesPerView: 'auto',
+            speed: 800,
+            autoplay: {
+                delay: 6000,
+                disableOnInteraction: false,
+            },
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            }
+        });
+
+        const tab = new Swiper('.tab-content', {
+            spaceBetween: 40,
+            slidesPerColumn: 2,
+            slidesPerColumnFill: 'column',
+            slidesPerView: 1,
+            autoHeight: true,
+        
+        thumbs: {
+                swiper: {
+                    el: '.tab-menu',
+                    slidesPerView: 4,
+                }
+            },
+        });
+    </script>
+    <script src="js/main.js"></script>
+</body>
+</html>
